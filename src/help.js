@@ -1,10 +1,10 @@
 const help = (prefix) => {
 	return `
-「 *SANZ BOT* 」//ganti nama bot lu
+「 *BOT DSG* 」//ganti nama bot lu
 
 ◪ *INFO*
   ❏ Prefix: 「  ${prefix}  」
-  ❏ Creator: Sanzz //ganti nama lu
+  ❏ Creator: Yenx //ganti nama lu
 ◪ *ABOUT*
   │
   ├─ ❏ ${prefix}info
@@ -91,8 +91,8 @@ const help = (prefix) => {
   └─ ❏ ${prefix}memeindo
 ◪ *GROUP*
   │
-  ├─ ❏ ${prefix}opengc
-  ├─ ❏ ${prefix}closegc
+  ├─ ❏ ${prefix}.g open
+  ├─ ❏ ${prefix}.g close
   ├─ ❏ ${prefix}promote
   ├─ ❏ ${prefix}demote
   ├─ ❏ ${prefix}tagall
@@ -100,8 +100,8 @@ const help = (prefix) => {
   ├─ ❏ ${prefix}tagall3
   ├─ ❏ ${prefix}tagall4
   ├─ ❏ ${prefix}tagall5
-  ├─ ❏ ${prefix}add
-  ├─ ❏ ${prefix}kick
+  ├─ ❏ ${prefix}.add
+  ├─ ❏ ${prefix}.kick
   ├─ ❏ ${prefix}listadmins
   ├─ ❏ ${prefix}linkgroup
   ├─ ❏ ${prefix}leave
