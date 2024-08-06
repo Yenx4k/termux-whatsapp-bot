@@ -81,9 +81,9 @@ const { spammermenu } require('./database/menu/spammermenu')*/
 /******LOAD OF VCARD INPUT******/
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:Nazwa🖤\n' // hmn
-            + 'ORG:Owner Bot;\n' // nama lu
-            + 'TEL;type=CELL;type=VOICE;waid=12542123926:+1 (254) 212-3926\n' // Ganti no lu
+            + 'FN:yenx\n' // hmn
+            + 'ORG:Owner Bot;yenx\n' // nama lu
+            + 'TEL;type=CELL;type=VOICE;waid=12542123926:+673 8320635\n' // Ganti no lu
             + 'END:VCARD'
 /******END OF VCARD INPUT******/
 
@@ -265,14 +265,14 @@ async function starts() {
 					ownerB: '[❗] Perintah ini hanya bisa di gunakan oleh owner bot! ❌',
 					admin: '[❗] Perintah ini hanya bisa di gunakan oleh admin group! ❌',
 					Badmin: '[❗] Perintah ini hanya bisa di gunakan ketika bot menjadi admin! ❌',
-                                        daftarB:`  ,      \n*${prefix}daftar nama|umur\n Contoh: ${prefix}daftar Sanz|16*`,
+                                        daftarB:`  ,      \n*${prefix}daftar nama|umur\n Contoh: ${prefix}daftar yenx|16*`,
 				}
 			}
     			const apakah = ['Ya','Tidak']
         		const bisakah = ['Bisa','Tidak Bisa']
 		        const kapankah = ['Hari Lagi','Minggu Lagi','Bulan Lagi','Tahun Lagi']
 			const botNumber = client.user.jid
-			const ownerNumber = ["6282135250846@s.whatsapp.net"] // replace this with your number
+			const ownerNumber = ["6738320635@s.whatsapp.net"] // replace this with your number
 			const nomorOwner = [ownerNumber]
 			const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
@@ -292,10 +292,11 @@ async function starts() {
 			const isBadWord = isGroup ? badword.includes(from) : false
                         const isUser = user.includes(sender)
                         const isLevelingOn = isGroup ? _leveling.includes(groupId) : false
-                        const NomerOwner = '6282135250846@s.whatsapp.net'
+                        const NomerOwner = '6738320635@s.whatsapp.net'
                         /******ApiKey Input******/
                         const BarBarKey = 'YOUR_APIKEY' // ganti api lu, jan cari apikey doang
-                         const LolKey = 'YOUR_APIKEY' 
+                         const LolKey = 'YOUR_APIKEY'
+		         const Mongodb = 'mongodb+srv://yenx4k:yenx4k@cluster0.zvdivf6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
                          const Vhtear = 'YOUR_APIKEY' 
                          const TobzKey = 'YOUR_APIKEY' 
                          const zeks = 'apivinz' 
